@@ -1,0 +1,27 @@
+/*Estilizações simples, como fonte e alinhamento*/
+body {
+    background: linear-gradient(to right, rgb(255, 175, 161), rgb(253, 146, 127));
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Estilização da tag <span> para criar destaque*/
+h1 > span {
+    color: tomato;
+}
+
+/*Estilização da tag <button>*/
+button{
+    background-color: tomato;
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*Estilização da tag <button>, é acionado ao passar o mouse no elemento*/
+button:hover {
+    background-color: rgb(220, 75, 55);
+}

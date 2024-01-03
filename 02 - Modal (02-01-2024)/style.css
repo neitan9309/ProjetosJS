@@ -1,0 +1,60 @@
+/*Estilizações simples, como fonte e alinhamento*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #dcc1ff, #957db6);
+    text-align: center;
+}
+
+/*Estilização da tag <button>*/
+button{
+    margin: 2rem;
+    background-color: #615696;
+    color: whitesmoke;
+    padding: .5rem 1rem ;
+    border: 0;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*Estilização da tag <button>, é acionado ao passar o mouse no elemento*/
+button:hover {
+    background-color: #4e457e;
+}
+
+/*Estilização da tag <div> de classe "modal". Note o "display: none", usado para ocultar a div e seus elementos-filho*/
+.modal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilização da sombra do modal*/
+.sobrep_modal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*Estilização do conteúdo do modal*/
+.conteudo_modal{
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: pointer
+}
+
+/*Estilização de uma classe nova "abrir" (chamada no arquivo de script). Esta classe irá sobrepor o parâmetro do display anterior setado em "none", que serve para ocultar os elementos do modal.*/
+.modal.abrir{
+    display: flex;
+}
