@@ -2,4 +2,4 @@ Esses códigos são de autoria do Bubb (não achei o nome verdadeiro dele hahaha
 Escrevi esses códigos acompanhando um vídeo encontrado no link: https://youtu.be/AGeRXBW9vsg?si=2p1NWVYWUDZgweBb de título "17 New JavaScript Projects for Beginners [Full Course]".
 A idéia do vídeo é apresentar projetos de nível iniciante feitos em JavaScript.
 Deixei comentários em cada código, com o intuito de demonstrar meu entendimento da linguagem.
-Apesar de ter feito os projetos acompanhado de um professor e suas soluções, tentei absorver ao máximo das explicações.
+Apesar de ter feito os projetos acompanhado de um professor e suas soluções, tentei absorver o máximo das explicações.
