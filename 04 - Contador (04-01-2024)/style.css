@@ -1,0 +1,35 @@
+body{
+    font-family: 'bahnschrift';
+}
+
+#counter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#counterDisplay{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+#counterAdd{
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: chartreuse;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.065);
+}
+
+#counterSub{
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 1rem 3.2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #d40000;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.065);
+}
